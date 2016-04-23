@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Skills-Web</title>
-    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css"/>
 </head>
 <body>
     <!-- DISCLAIMER: This is a homework assignment. DO NOT take litterally.
@@ -14,11 +14,11 @@
     <h1>Apply to an amazing job today!</h1>
     <p>
     	Are you a super techie person? Bored of your current job? Ready to start a new life? <br>
-    	Then you have clicked your way to the right application form! Apply today to one of the positions below!<br> All we need is for you to fill out the short application and click that apply button!<br> Don't worry we aren't just collecting your information, we are selling it to the higest bidder!
+    	Then you have clicked your way to the right application form! Apply today to one of the positions below!<br> All we need is for you to fill out the short application form and click that apply button!<br> Don't worry we aren't just collecting your information, we are selling it to the higest bidder!
     </p>
     <form action="/application" method="post">
     	First Name: <input type="text" name="fname" required><br>
-    	Last Name: <input type="text" name="lname" required><br>
+    	Last Name: <input class= "lnamebold" type="text" name="lname" required><br>
     	Salary Requirement: <input type="text" name="salary" required><br>
     	Position:
     	<select name="position" required>
@@ -27,7 +27,7 @@
     		<option value="QAengineer">QA Engineer</option>
     		<option value="product">Product Manager</option>
     	</select>
-
+    	<br>
     	<input type="submit" value="Apply">
 	</form>
 </body>

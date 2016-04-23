@@ -1,1 +1,13 @@
 /*your CSS goes here*/
+
+input {
+	background-color: #f8f0c4;
+}
+
+.lnamebold {
+	font-weight: bold;
+}
+
+p {
+	border: 2px solid black;
+}
